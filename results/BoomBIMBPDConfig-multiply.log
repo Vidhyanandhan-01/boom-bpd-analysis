@@ -1,0 +1,4 @@
+mcycle = 32810
+minstret = 24100
+[UART] UART0 is here (stdin/stdout).
+- /home/vidhya/Documents/BOOM_CPU/chipyard/sims/verilator/generated-src/chipyard.harness.TestHarness.BoomBIMBPDConfig/gen-collateral/TestDriver.v:158: Verilog $finish

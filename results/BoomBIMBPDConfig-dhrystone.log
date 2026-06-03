@@ -1,0 +1,6 @@
+Microseconds for one run through Dhrystone: 434
+Dhrystones per Second:                      2299
+mcycle = 217540
+minstret = 186031
+[UART] UART0 is here (stdin/stdout).
+- /home/vidhya/Documents/BOOM_CPU/chipyard/sims/verilator/generated-src/chipyard.harness.TestHarness.BoomBIMBPDConfig/gen-collateral/TestDriver.v:158: Verilog $finish
