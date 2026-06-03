@@ -245,11 +245,3 @@ This directly motivates TAGE: for every branch-intensive workload, having longer
 | `results/` | Raw simulator output logs (15 files) |
 
 ---
-
-## 8. Resume Bullets
-
-> Evaluated TAGE-L, GShare, and Alpha-21264 branch predictors on BOOM OOO core via cycle-accurate RTL simulation (Chipyard/Verilator), measuring IPC and misprediction overhead across 5 RISC-V benchmarks
-
-> Quantified up to 24% IPC improvement of TAGE-L over simpler predictors on branch-correlated workloads; identified qsort as an adversarial case where TAGE-L's loop predictor degraded performance vs. GShare due to quasi-random branch behavior
-
-> Extended prior 2-bit saturating counter predictor work (RV32I in-order) to OOO context, demonstrating that BOOM's 32-entry ROB amplifies misprediction penalty and widens the performance gap between predictor designs vs. in-order pipelines
